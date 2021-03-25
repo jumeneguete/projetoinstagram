@@ -1,0 +1,303 @@
+/*CSS stylesheet*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+header ion-icon {
+    font-size: 25px;
+}
+
+
+.topo {
+    width: 905px;
+    height: 54px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+
+.logo-box img  {
+    margin-left: 15px;
+}
+
+.logo {
+    height: 45px;
+}
+
+.icon-1 {
+    display: none;
+}
+
+header input {
+    width: 215px;
+    height: 28px;
+    text-align: center;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.icons-box ion-icon {
+    margin-right: 15px;
+}
+
+.icons-box ion-icon:last-child {
+    margin-right: 0;
+}
+
+.stories-box {
+    width: 614px;
+    height: 118px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+
+.stories {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 60px;
+    border-radius: 66px; 
+    margin-top: 5px;
+    background-color: rgb(233, 13, 160);   
+}
+
+.stories .img {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-image: url("imagens/stories_background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom:5px ;
+    
+}
+
+.stories-box p {
+    font-size: 12px;
+}
+
+.feed-box {
+    width: 614px;
+}
+
+.feed-box ion-icon {
+    font-size: 25px;
+}
+
+.post {
+    font-size: 14px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    background-color: #fff;
+}
+.post-top {
+    width: 100%;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-account {
+    display: flex;
+    align-items: center;
+}
+
+.post-account img {
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.post > img {
+    width: 100%;
+    height: 612px;
+    object-fit: cover; /***/
+}
+
+.post-icons {
+    width:  100%;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-left ion-icon{
+    margin-right: 7px;
+}
+
+.post-likes {
+    width:  100%;
+    height: 40px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.post-likes img {
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.post-text {
+    width: 100%;
+    padding-left: 15px;
+}
+
+.post-comments {
+    width: 100%;
+    padding: 8px 15px;
+    box-sizing: border-box;
+}
+
+.post-comments p {
+    padding-bottom: 8px;
+}
+
+.gray {
+    color: #888787;
+}
+
+.time {
+    font-size: 10px;
+}
+
+.add-comment {
+    height: 50px;
+    padding-left: 15px;
+    border-top: 1px solid #DBDBDB ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-comment textarea {
+    width: 70%;
+    font-family: 'Roboto';
+    padding-left: 10px;
+    border: none;
+    resize: none;
+}
+
+textarea:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.send {
+    height: 100%;
+    padding: 0 15px;
+    border-left: 1px solid #DBDBDB ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send:hover {
+    opacity: 0.8;
+}
+
+.content {
+    width: 905px;
+    margin: 0 auto;
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 261px;
+    height: 300px;
+    background-color: lightslategray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.lighter {
+    font-weight: lighter;
+}
+
+@media (max-width: 935px){
+
+    .topo {
+        width: 95%;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .content {
+        width: 95%;
+        justify-content: center;
+    }
+    
+    .stories-box, .feed-box  {
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 614px){
+    
+
+    .topo {
+        width: 100%;
+    }
+
+    .topo input, .icons-box{
+        display: none;
+    }
+
+    .icon-1{
+        display: block;
+    }
+
+    .logo-box {
+        width: 100%;
+        margin: 0 15px;
+        justify-content: space-between;
+    }
+}
