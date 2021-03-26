@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA;
 }
 
 body a{
@@ -11,9 +12,12 @@ body a{
 
 header {
     width: 100%;
+    border: 1px solid #DBDBDB;
     position: fixed;
     top:0;
     left:0;
+    background-color: #fff;
+    z-index: 1;
 }
 
 header ion-icon {
@@ -28,7 +32,6 @@ header ion-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: beige;
 }
 
 .logo-box {
@@ -70,14 +73,36 @@ header input {
     width: 614px;
     height: 118px;
     margin-bottom: 35px;
+    padding-left: 5px;
+    border: 1px solid #DBDBDB;
     display: flex;
-    justify-content: space-around;
+    position: relative;
     align-items: center;
     background-color: #fff;
+    overflow: hidden;
+}
+
+.arrow {
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    right:5px;
+    bottom: 45px;
+}
+
+.arrow-shadow {
+    font-size: 35px;
+    color:rgba(0, 0, 0, 0.103);
+    cursor: pointer;
+    position: absolute;
+    right:6px;
+    bottom: 43px;
 }
 
 .stories {
     width: 80px;
+    margin-right: 7px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +113,6 @@ header input {
     width: 60px;
     border-radius: 66px; 
     margin-top: 5px;
-    background-color: rgb(233, 13, 160);   
 }
 
 .stories .img {
@@ -145,8 +169,10 @@ header input {
 
 .post > img {
     width: 100%;
-    height: 612px;
-    object-fit: cover; /***/
+}
+
+.post video {
+    width: 100%;
 }
 
 .post-icons {
@@ -248,7 +274,73 @@ textarea:focus {
 .sidebar {
     width: 261px;
     height: 300px;
-    background-color: lightslategray;
+    font-size: 12px;
+    position: sticky;
+    right: auto;
+    top: 88px;
+}
+
+.side-account {
+    height: 80px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.side-account img {
+    width: 60px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.side-info .ligther {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.side {
+    height: 30px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow-box {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow-box img {
+    width: 40px;
+    margin-right: 5px;
+    border-radius: 40px;
+}
+
+.follow-suggestions {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.follow {
+    width: 50px;
+    height: 50px;]
+    letter-spacing: 1.3px;
+    color: #95D2F7;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-links {
+    color: #C7C7C7;
+    font-weight: lighter;
+    padding: 10px;
 }
 
 .bold {
@@ -258,6 +350,16 @@ textarea:focus {
 .lighter {
     font-weight: lighter;
 }
+
+.bottom-bar {
+    display: none;
+}
+
+/*-----------------RESPONSIVO-------------------*/
+/*-----------------RESPONSIVO-------------------*/
+/*-----------------RESPONSIVO-------------------*/
+/*-----------------RESPONSIVO-------------------*/
+/*-----------------RESPONSIVO-------------------*/
 
 @media (max-width: 935px){
 
@@ -282,6 +384,9 @@ textarea:focus {
 
 @media (max-width: 614px){
     
+    * {
+        box-sizing: border-box;
+    }
 
     .topo {
         width: 100%;
@@ -300,4 +405,49 @@ textarea:focus {
         margin: 0 15px;
         justify-content: space-between;
     }
+
+    .content {
+        width: 100%;
+        margin-top: 54px;
+        display:block;
+    }
+
+    .stories-box {
+        max-width: 100%;
+        margin-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+        justify-content: flex-start;
+        background-color:#FAFAFA ;
+    }
+
+    .post {
+        border-left: : 0;
+        border-right: 0;
+    }
+
+    .arrow, .arrow-shadow {
+        display: none;
+    }
+
+    .bottom-bar {
+        width: 100%;
+        height: 54px;
+        padding: 0 10px;
+        border: 1px solid #DBDBDB;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .bottom-bar ion-icon {
+        font-size: 25px;
+    }
+   
 }

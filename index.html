@@ -16,16 +16,16 @@
             <div class="logo-box">
                 <ion-icon name="logo-instagram"></ion-icon>
                 <img src="imagens/ig-logo.png" class="logo" alt="logo do instagram">
-                <ion-icon name="heart" class="icon-1"></ion-icon>
+                <ion-icon name="paper-plane-outline" class="icon-1"></ion-icon> 
             </div>
 
             <input type="text" id="txtBusca" placeholder="Pesquisar"/>
 
             <div class="icons-box">
-                <ion-icon name="heart"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon> 
+                <ion-icon name="compass-outline"></ion-icon>
                 <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="heart-outline"></ion-icon>
-                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="person-outline"></ion-icon>
             </div>
         </div>
     </header>
@@ -33,9 +33,12 @@
     <div class="content">
         <div>
             <div class="stories-box">
+                <ion-icon class="arrow-shadow" name="chevron-forward-circle"></ion-icon>
+                <ion-icon class="arrow" name="chevron-forward-circle"></ion-icon>
+
                 <div class="stories">
                     <div class="img"><img src="imagens/zecarioca.jpg" alt="imagem de perfil"></div>
-                    <p>cariocamaneiro</p>
+                    <p>cariocaman...</p>
                 </div>
 
                 <div class="stories">
@@ -56,13 +59,17 @@
                     <p>lovebears</p>
                 </div>
                 <div class="stories">
+                    <div class="img"><img src="imagens/bbb.jpg" alt="imagem de perfil"></div>
+                    <p>bbb</p>
+                </div>
+                <div class="stories">
                     <div class="img"><img src="imagens/chapolin.jpg" alt="imagem de perfil"></div>
                     <p>chapolinsin...</p>
                 </div>
                 <div class="stories">
                     <div class="img"><img src="imagens/cantinhologo.jpg" alt="imagem de perfil"></div>
                     <p>cantinhodelu...</p>
-                </div>
+                </div>                
             </div>
 
             <div class="feed-box">
@@ -120,7 +127,8 @@
                         <ion-icon name="ellipsis-horizontal"></ion-icon>
                     </div>
 
-                    <img src="imagens/post10_gif.gif" alt="foto do perfil">
+                    <video src="imagens/post10.mp4" type="video/mp4" autoplay muted loop></video>
+                    
 
                     <div class="post-icons">
                         <div class="icons-left">
@@ -145,6 +153,53 @@
                         <p><span class="bold">fulano</span> hahahahahaahah</p>
                         <p><span class="bold">beltrano.daora</span> Amei!</p>
                         <p class="time gray">1 HORA ATRAS</p>
+                    </div>
+
+                    <div class="add-comment">
+                        <ion-icon name="happy-outline"></ion-icon>
+                        <textarea placeholder="Escreva o seu comentário"></textarea>
+                        <div class="send">Enviar</div>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="post-top">
+                        <div class="post-account">
+                            <img src="imagens/balu.jpg" alt="foto do perfil">
+                            <span class="bold">lovebears</span>
+                        </div>
+
+                        <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </div>
+
+                    <video autoplay muted>
+                        <source src="imagens/video.ogv" type="video/ogg">
+                            <source src="imagens/video.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="post-icons">
+                        <div class="icons-left">
+                            <ion-icon name="heart-outline"></ion-icon>
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                            <ion-icon name="paper-plane-outline"></ion-icon>
+                        </div>
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+
+                    <div class="post-likes">
+                        <img src="imagens/logoeu.jpg" alt="foto do perfil">
+                        Curtido por &nbsp; <span class="bold">adorable_animals</span> e <span class="bold">outras 3.806.856 pessoas</span>
+                    </div>
+
+                    <div class="post-text">
+                        <span class="bold">lovebears</span> &nbsp; Balu liveaction..
+                    </div>
+
+                    <div class="post-comments">
+                        <p class="gray"><a href="#">Ver todos os 56 comentários</a></p>
+                        <p><span class="bold">fulano</span> Maneiro</p>
+                        <p><span class="bold">beltrano.daora</span> :D</p>
+                        <p class="time gray">2 HORAS ATRAS</p>
                     </div>
 
                     <div class="add-comment">
@@ -289,7 +344,87 @@
             </div>
         </div>
 
-        <div class="sidebar"></div>
+        <div class="sidebar">
+            <div class="side-account">
+                <img src="imagens/juliana.jpg" alt="foto do perfil">
+                <div class="side-info">
+                    <span class="bold">jumeneguete</span><br>
+                    <span class="ligther">Juliana Meneguete</span>
+                </div>
+            </div>
+
+            <div class="side">
+                <span class="bold gray">Sugestões para você</span>
+                <span class="bold">Ver tudo</span>
+            </div>
+
+            <div class="follow-box">
+                <div class="follow-suggestions">
+                    <img src="imagens/sextante.png" alt="foto do perfil">
+                    <div class="side-info">
+                        <span class="bold">sextanteeditora</span><br>
+                        <span class="ligther">Sextante Editora</span>
+                    </div>
+                </div>
+                <div class="follow bold">Seguir</div>
+            </div> 
+
+            <div class="follow-box">
+                <div class="follow-suggestions">
+                    <img src="imagens/darkside.png" alt="foto do perfil">
+                    <div class="side-info">
+                        <span class="bold">darksidebooks</span><br>
+                        <span class="ligther">Darkside</span>
+                    </div>
+                </div>
+                <div class="follow bold">Seguir</div>
+            </div> 
+
+            <div class="follow-box">
+                <div class="follow-suggestions">
+                    <img src="imagens/ivete.jpg" alt="foto do perfil">
+                    <div class="side-info">
+                        <span class="bold">ivete</span><br>
+                        <span class="ligther">Ivete Sangalo</span>
+                    </div>
+                </div>
+                <div class="follow bold">Seguir</div>
+            </div> 
+
+            <div class="follow-box">
+                <div class="follow-suggestions">
+                    <img src="imagens/th.jpg" alt="foto do perfil">
+                    <div class="side-info">
+                        <span class="bold">thbarbosa</span><br>
+                        <span class="ligther">THiaguinho</span>
+                    </div>
+                </div>
+                <div class="follow bold">Seguir</div>
+            </div> 
+
+            <div class="follow-box">
+                <div class="follow-suggestions">
+                    <img src="imagens/respondeai.jpg" alt="foto do perfil">
+                    <div class="side-info">
+                        <span class="bold">responseai</span><br>
+                        <span class="ligther">Responde aí</span>
+                    </div>
+                </div>
+                <div class="follow bold">Seguir</div>
+            </div> 
+
+            <div class="side-links">Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade •
+                Termos • Localizações • Contas mais relevantes • Hashtags • 
+                Idioma</div>
+                <div class="side-links">© 2021 INSTAGRAM DO FACEBOOK </div>
+        </div>
+        <div class="bottom-bar">
+            <ion-icon name="home-outline"></ion-icon> 
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="add-circle-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>  
+        </div>
     </div>
 
  
