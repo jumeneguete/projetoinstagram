@@ -3,14 +3,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FAFAFA;
-}
-
-body a{
+  }
+  
+  body a{
     text-decoration: none;
     color: inherit;
-}
-
-header {
+  }
+  
+  header {
     width: 100%;
     border: 1px solid #DBDBDB;
     position: fixed;
@@ -18,40 +18,40 @@ header {
     left:0;
     background-color: #fff;
     z-index: 1;
-}
-
-header ion-icon {
+  }
+  
+  header ion-icon {
     font-size: 25px;
-}
-
-
-.topo {
+  }
+  
+  
+  .topo {
     width: 905px;
     height: 54px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo-box {
+  }
+  
+  .logo-box {
     display: flex;
     align-items: center;
-}
-
-.logo-box img  {
+  }
+  
+  .logo-box img  {
     margin-left: 15px;
-}
-
-.logo {
+  }
+  
+  .logo {
     height: 45px;
-}
-
-.icon-1 {
+  }
+  
+  .icon-1 {
     display: none;
-}
-
-header input {
+  }
+  
+  header input {
     width: 215px;
     height: 28px;
     text-align: center;
@@ -59,17 +59,17 @@ header input {
     border: 1px solid #DBDBDB;
     box-sizing: border-box;
     border-radius: 3px;
-}
-
-.icons-box ion-icon {
+  }
+  
+  .icons-box ion-icon {
     margin-right: 15px;
-}
-
-.icons-box ion-icon:last-child {
+  }
+  
+  .icons-box ion-icon:last-child {
     margin-right: 0;
-}
-
-.stories-box {
+  }
+  
+  .stories-box {
     width: 614px;
     height: 118px;
     margin-bottom: 35px;
@@ -80,42 +80,42 @@ header input {
     align-items: center;
     background-color: #fff;
     overflow: hidden;
-}
-
-.arrow {
+  }
+  
+  .arrow {
     font-size: 35px;
     color: #fff;
     cursor: pointer;
     position: absolute;
     right:5px;
     bottom: 45px;
-}
-
-.arrow-shadow {
+  }
+  
+  .arrow-shadow {
     font-size: 35px;
     color:rgba(0, 0, 0, 0.103);
     cursor: pointer;
     position: absolute;
     right:6px;
     bottom: 43px;
-}
-
-.stories {
+  }
+  
+  .stories {
     width: 80px;
     margin-right: 7px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.img img {
+  }
+  
+  .img img {
     width: 60px;
     border-radius: 66px; 
     margin-top: 5px;
-}
-
-.stories .img {
+  }
+  
+  .stories .img {
     width: 70px;
     height: 70px;
     text-align: center;
@@ -124,28 +124,29 @@ header input {
     background-repeat: no-repeat;
     margin-bottom:5px ;
     
-}
-
-.stories-box p {
+  }
+  
+  .stories-box p {
     font-size: 12px;
-}
-
-.feed-box {
+    margin:0;
+  }
+  
+  .feed-box {
     width: 614px;
-}
-
-.feed-box ion-icon {
+  }
+  
+  .feed-box ion-icon {
     font-size: 25px;
-}
-
-.post {
+  }
+  
+  .post {
     font-size: 14px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     margin-bottom: 60px;
     background-color: #fff;
-}
-.post-top {
+  }
+  .post-top {
     width: 100%;
     height: 60px;
     padding-left: 15px;
@@ -154,28 +155,28 @@ header input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.post-account {
+  }
+  
+  .post-account {
     display: flex;
     align-items: center;
-}
-
-.post-account img {
+  }
+  
+  .post-account img {
     width: 40px;
     border-radius: 40px;
     margin-right: 10px;
-}
-
-.post > img {
+  }
+  
+  .post > img {
     width: 100%;
-}
-
-.post video {
+  }
+  
+  .post video {
     width: 100%;
-}
-
-.post-icons {
+  }
+  
+  .post-icons {
     width:  100%;
     height: 40px;
     padding-left: 15px;
@@ -184,149 +185,149 @@ header input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.icons-left ion-icon{
+  }
+  
+  .icons-left ion-icon{
     margin-right: 7px;
-}
-
-.post-likes {
+  }
+  
+  .post-likes {
     width:  100%;
     height: 40px;
     padding-left: 15px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-}
-
-.post-likes img {
+  }
+  
+  .post-likes img {
     width: 25px;
     margin-right: 10px;
     border-radius: 25px;
-}
-
-.post-text {
+  }
+  
+  .post-text {
     width: 100%;
     padding-left: 15px;
-}
-
-.post-comments {
+  }
+  
+  .post-comments {
     width: 100%;
     padding: 8px 15px;
     box-sizing: border-box;
-}
-
-.post-comments p {
+  }
+  
+  .post-comments div {
     padding-bottom: 8px;
-}
-
-.gray {
+  }
+  
+  .gray {
     color: #888787;
-}
-
-.time {
+  }
+  
+  .time {
     font-size: 10px;
-}
-
-.add-comment {
+  }
+  
+  .add-comment {
     height: 50px;
     padding-left: 15px;
     border-top: 1px solid #DBDBDB ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.add-comment textarea {
+  }
+  
+  .add-comment textarea {
     width: 70%;
     font-family: 'Roboto';
     padding-left: 10px;
     border: none;
     resize: none;
-}
-
-textarea:focus {
+  }
+  
+  textarea:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-}
-
-.send {
+  }
+  
+  .send {
     height: 100%;
     padding: 0 15px;
     border-left: 1px solid #DBDBDB ;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.send:hover {
+  }
+  
+  .send:hover {
     opacity: 0.8;
-}
-
-.content {
+  }
+  
+  .content {
     width: 905px;
     margin: 0 auto;
     margin-top: 88px;
     display: flex;
     justify-content: space-between;
-}
-
-.sidebar {
+  }
+  
+  .sidebar {
     width: 261px;
     height: 300px;
     font-size: 12px;
     position: sticky;
     right: auto;
     top: 88px;
-}
-
-.side-account {
+  }
+  
+  .side-account {
     height: 80px;
     margin-left: 10px;
     display: flex;
     align-items: center;
-}
-
-.side-account img {
+  }
+  
+  .side-account img {
     width: 60px;
     border-radius: 40px;
     margin-right: 10px;
-}
-
-.side-info .ligther {
+  }
+  
+  .side-info .ligther {
     display: inline-block;
     padding-top: 5px;
-}
-
-.side {
+  }
+  
+  .side {
     height: 30px;
     margin: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.follow-box {
+  }
+  
+  .follow-box {
     margin-left: 10px;
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.follow-box img {
+  }
+  
+  .follow-box img {
     width: 40px;
     margin-right: 5px;
     border-radius: 40px;
-}
-
-.follow-suggestions {
+  }
+  
+  .follow-suggestions {
     height: 50px;
     display: flex;
     align-items: center;
-}
-
-.follow {
+  }
+  
+  .follow {
     width: 50px;
     height: 50px;]
     letter-spacing: 1.3px;
@@ -335,42 +336,42 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.side-links {
+  }
+  
+  .side-links {
     color: #C7C7C7;
     font-weight: lighter;
     padding: 10px;
-}
-
-.bold {
+  }
+  
+  .bold {
     font-weight: bold;
-}
-
-.lighter {
+  }
+  
+  .lighter {
     font-weight: lighter;
-}
-
-.bottom-bar {
+  }
+  
+  .bottom-bar {
     display: none;
-}
-
-/*-----------------RESPONSIVO-------------------*/
-/*-----------------RESPONSIVO-------------------*/
-/*-----------------RESPONSIVO-------------------*/
-/*-----------------RESPONSIVO-------------------*/
-/*-----------------RESPONSIVO-------------------*/
-
-@media (max-width: 935px){
-
+  }
+  
+  /*-----------------RESPONSIVO-------------------*/
+  /*-----------------RESPONSIVO-------------------*/
+  /*-----------------RESPONSIVO-------------------*/
+  /*-----------------RESPONSIVO-------------------*/
+  /*-----------------RESPONSIVO-------------------*/
+  
+  @media (max-width: 935px){
+  
     .topo {
         width: 95%;
     }
-
+  
     .sidebar {
         display: none;
     }
-
+  
     .content {
         width: 95%;
         justify-content: center;
@@ -380,38 +381,38 @@ textarea:focus {
         max-width: 100%;
     }
     
-}
-
-@media (max-width: 614px){
+  }
+  
+  @media (max-width: 614px){
     
     * {
         box-sizing: border-box;
     }
-
+  
     .topo {
         width: 100%;
     }
-
+  
     .topo input, .icons-box{
         display: none;
     }
-
+  
     .icon-1{
         display: block;
     }
-
+  
     .logo-box {
         width: 100%;
         margin: 0 15px;
         justify-content: space-between;
     }
-
+  
     .content {
         width: 100%;
         margin-top: 54px;
         display:block;
     }
-
+  
     .stories-box {
         max-width: 100%;
         margin-bottom: 0;
@@ -421,16 +422,16 @@ textarea:focus {
         justify-content: flex-start;
         background-color:#FAFAFA ;
     }
-
+  
     .post {
         border-left: : 0;
         border-right: 0;
     }
-
+  
     .arrow, .arrow-shadow {
         display: none;
     }
-
+  
     .bottom-bar {
         width: 100%;
         height: 54px;
@@ -445,9 +446,10 @@ textarea:focus {
         z-index: 1;
         background-color: #fff;
     }
-
+  
     .bottom-bar ion-icon {
         font-size: 25px;
     }
+  
    
-}
+  }
